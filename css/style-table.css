@@ -1,0 +1,106 @@
+.read table {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.konten {
+    margin-top: 60px;
+}
+
+.read h1 {
+    margin-bottom: 25px;
+	font-size: 25px;
+}
+
+.read table {
+	width: 100%;
+	padding-top: 30px;
+	border-collapse: collapse;
+}
+
+.read table thead {
+	background-color:rgba(232, 67, 147, 0.1);
+	border-bottom: 1px solid rgba(232, 67, 147, 0.3);
+}
+
+.read table thead tr th {
+	padding: 10px;
+	font-weight: bold;
+	color: #2b2b2b;
+	font-size: 14px;
+}
+
+.read table tbody tr,
+.read table tfoot tr {
+	border-bottom: 1px solid #d3dae0;
+}
+
+.read table tbody tr td,
+.read table tfoot tr th {
+	color: #767779;
+}
+
+.read table tbody tr:nth-child(even),
+.read table tfoot tr:nth-child(even) {
+	background-color: #fbfcfc;
+}
+
+.read table tbody tr:hover,
+.read table tfoot tr:hover {
+	background-color: #376ab7;
+}
+
+.read table tbody tr:hover td,
+.read table tfoot tr:hover th {
+	color: #FFFFFF;
+}
+
+.read table tbody tr:hover td:nth-child(1),
+.read table tfoot tr:hover th:nth-child(1) {
+	color: #FFFFFF;
+}
+
+.read table tbody tr td,
+.read table tfoot tr th {
+	padding: 10px;
+}
+
+.read table tbody tr td:nth-child(1),
+.read table tfoot tr th:nth-child(1) {
+	color: #a5a7a9;
+}
+
+.read table tbody tr .actions {
+	padding: 8px;
+	text-align: right;
+}
+
+.read table tbody tr .actions .tambah,
+.read table tbody tr .actions .hapus {
+	margin: 5px;
+	width: 80px;
+	display: inline-flex;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px 12px;
+}
+
+.read table tbody tr td.actions .tambah {
+	background-color: #03a811;
+}
+
+.read table tbody tr td.actions .tambah:hover {
+	background-color: #319ca3;
+}
+
+.read table tbody tr td.actions .hapus {
+	background-color: #b73737;
+}
+
+.read table tbody tr td.actions .hapus:hover {
+	background-color: #dd3f3f;
+}
